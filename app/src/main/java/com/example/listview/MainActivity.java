@@ -26,5 +26,6 @@ ListView v1;
         v1=findViewById(R.id.v1);
         ArrayAdapter ad=new ArrayAdapter(this, android.R.layout.simple_expandable_list_item_1,arr);
 v1.setAdapter(ad);
+//we can create our own adapter by making it class and then extends it from ArrayAdapter
     }
 }
